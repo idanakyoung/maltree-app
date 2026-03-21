@@ -1,17 +1,31 @@
-# maltree_app
+# 말트리 (Maltree)
 
-A new Flutter project.
+말트리는 말하기 시험과 면접 준비를 위한 템플릿 기반 학습 정리 앱입니다.
 
-## Getting Started
+## 소개
+사용자는 시험별, 파트별, 유형별, 템플릿별로 답변 구조를 정리하고,
+각 템플릿에 대해 영어 문장, 한글 설명, 예시 답변, 개인 답변 메모를 함께 저장할 수 있습니다.
 
-This project is a starting point for a Flutter application.
+## 문제 정의
+토익스피킹 준비 과정에서 템플릿과 내 답변이 여러 곳에 흩어져 있어
+복습과 관리가 비효율적이라는 문제를 해결하기 위해 기획했습니다.
 
-A few resources to get you started if this is your first Flutter project:
+## MVP 범위
+- 토익스피킹 우선 지원
+- 파트 분류
+- 유형 분류
+- 템플릿 저장 및 수정
+- 내 답변 저장
+- 즐겨찾기 기능
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 기술 스택
+- Flutter
+- Riverpod
+- go_router
+- Drift(SQLite)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 실행 방법
+```bash
+flutter pub get
+flutter run -d chrome
+```bash
