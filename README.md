@@ -28,4 +28,52 @@
 ```bash
 flutter pub get
 flutter run -d chrome
-```bash
+```
+
+## Drift 테이블 초안
+
+### parts
+- id
+- name
+- order
+
+### template_types
+- id
+- part_id
+- name
+
+### templates
+- id
+- type_id
+- title
+- english_text
+- korean_description
+- example_answer
+- user_memo
+- is_favorite
+
+## 샘플 데이터 기준
+
+### 시험
+- 토익스피킹만 우선 적용
+
+### 파트
+- Part 2
+- Part 3
+- Part 5
+
+### 유형
+- Part 2: 사진 묘사
+- Part 3: 질문 답변
+- Part 5: 해결책 제안
+
+### 템플릿 수
+- 초기 MVP에서는 총 5~10개 템플릿만 사용
+
+### 템플릿에 들어갈 내용
+- 제목
+- 영어 템플릿
+- 한글 설명
+- 예시 답변
+- 내 답변 메모
+- 즐겨찾기 여부
